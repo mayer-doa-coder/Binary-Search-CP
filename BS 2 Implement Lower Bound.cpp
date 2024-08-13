@@ -8,6 +8,8 @@ using namespace std;
     But if any such index is not found, the lower bound algorithm returns n i.e. size of the given array.
 */
 
+// https://leetcode.com/problems/search-insert-position/description/ (same as finding lower bound)
+
 // O(logN)
 int Lower_Bound(int n,vector<int> &v,int target)
 {
