@@ -27,6 +27,13 @@ int Lower_Bound(int n,vector<int> &v,int target)
     return ans;
 }
 
+// STL
+int Lower_Bound(int n,vector<int> &v, int target)
+{
+    int low= lower_bound(v.begin(),v.end(),target)-v.begin();
+    return low;
+}
+
 int main()
 {
     int n,target;
