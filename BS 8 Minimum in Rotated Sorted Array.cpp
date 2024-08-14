@@ -4,6 +4,11 @@
     Find the minimum number in the array
 */
 
+/*
+    Question: Find out how many times the array has been rotated?
+    Solution: We will employ the same algorithm to determine the index of the minimum element. We will additionally keep track of the index.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
